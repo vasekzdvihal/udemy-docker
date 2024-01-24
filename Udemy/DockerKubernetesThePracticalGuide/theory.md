@@ -1,6 +1,6 @@
-### Docker & Kubernetes: The Practical Guide
+## Docker & Kubernetes: The Practical Guide
 
-#### 1: Getting Started
+### 1: Getting Started
 
 Build image based on Dockerfile (folder you are in have to have Dockerfile)
 ``` terminal
@@ -24,3 +24,5 @@ Then you can run it
 ```
  -p 3000:3000
 ```
+### 2: Docker Images & Containers: The Core Building Blocks
+
