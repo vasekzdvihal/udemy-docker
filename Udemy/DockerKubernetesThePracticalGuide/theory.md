@@ -1,6 +1,6 @@
-### Docker & Kubernetes: The Practical Guide
+## Docker & Kubernetes: The Practical Guide
 
-#### 1: Getting Started
+### 1: Getting Started
 
 Build image based on Dockerfile (folder you are in have to have Dockerfile)
 ``` terminal
@@ -24,3 +24,13 @@ Then you can run it
 ```
  -p 3000:3000
 ```
+### 2: Docker Images & Containers: The Core Building Blocks
+
+##### Attaching to an already-running Container.
+By default, if your run a Container withnout ```-d```, you run in "attached mode". If you started a container
+in a detached mode (i.e. with ```-d```), you can still attach to it afterwards without restarting the Container 
+with the following command: 
+``` terminal
+   docker attach CONTAINER
+```
+attaches you to a running Container with an ID or name of ```CONTAINER```.
