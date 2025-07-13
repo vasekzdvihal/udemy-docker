@@ -127,5 +127,6 @@ dist
 .pnp.*
 .DS_Store
 
-# storm
+# IDE's
 .idea/
+.history
