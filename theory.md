@@ -39,7 +39,7 @@ FROM node
 WORKDIR /nodeapp
 COPY package.json /nodeapp
 RUN npm install
-COPY . ./
+COPY Udemy/DockerKubernetesThePracticalGuide ./
 EXPOSE 80
 CMD ["node", "server.js"]
 ```
