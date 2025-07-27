@@ -129,4 +129,5 @@ dist
 
 # IDE's
 .idea/
+.idea\
 .history
